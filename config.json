@@ -41,10 +41,6 @@
         "gambar": "app/banner.png",
         "judul": "Menu Utama",
         "deskripsi": "§6Selamat Datang§r di Web atau aplikasi Resmi AcumalakSMP!!\nIni biar mempermudah dalam mengunduh atau mendapat informasi terbaru dari Development server :)"
-      },
-      {
-        "id_konten": 2,
-        "judul": "test"
       }
     ],
     "event_menu": [
