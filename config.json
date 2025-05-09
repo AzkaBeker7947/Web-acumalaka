@@ -1,0 +1,71 @@
+{
+  "title": "AcumalakSMP",
+  "lunch_screen": {
+    "logo": "app/app.png",
+    "text": "AcumalakaSMP App",
+    "text_made": "made by VelixsCraftMCYT",
+    "background": "#FF6D00"
+  },
+  "color": {
+    "header_up": "#FF6D00",
+    "header_down": "#FF9100",
+    "main_color": "#FFF3E0",
+    "accent": "#FFAB00"
+  },
+  "app": [
+    {
+      "icon": "app/home.png",
+      "text": "Home",
+      "id": "home_menu"
+    },
+    {
+      "icon": "app/event.png",
+      "text": "Events",
+      "id": "event_menu"
+    },
+    {
+      "icon": "app/info.png",
+      "text": "Info",
+      "id": "info_menu"
+    },
+    {
+      "icon": "app/download.png",
+      "text": "Download",
+      "id": "download_menu"
+    }
+  ],
+  "konten": {
+    "home_menu": [
+      {
+        "id_konten": 1,
+        "gambar": "app/banner.png",
+        "judul": "Menu Utama",
+        "deskripsi": "§6Selamat Datang§r di Web atau aplikasi Resmi AcumalakSMP!!\nIni biar mempermudah dalam mengunduh atau mendapat informasi terbaru dari Development server :)"
+      }
+    ],
+    "event_menu": [
+      {
+        "id_konten": 1,
+        "gambar": "app/banner_event.png",
+        "judul": "Menu Events",
+        "deskripsi": "Tempat diamana Events berada!!\nSemua events akan di tampilkan disini!!"
+      }
+    ],
+    "info_menu": [
+      {
+        "id_konten": 1,
+        "gambar": "app/banner_info.png",
+        "judul": "Menu Informasi",
+        "deskripsi": "disini akan menampilkan semua progress update atau informasi lainnya!!"
+      }
+    ],
+    "download_menu": [
+      {
+        "id_konten": 1,
+        "gambar": "app/banner_download.png",
+        "judul": "Menu download",
+        "deskripsi": "tempat diamana untuk mendownload!!"
+      }
+    ]
+  }
+}

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#FF6D00">
+    <meta name="description" content="Aplikasi resmi AcumalakSMP">
+    <meta name="application-name" content="AcumalakSMP App">
+    <meta name="apple-mobile-web-app-title" content="AcumalakSMP">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <link rel="manifest" href="manifest.json">
+    <link rel="icon" href="icon.png">
+    <link rel="apple-touch-icon" href="icon.png">
+    <title>AcumalakSMP</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <!-- Launch Screen -->
+    <div id="launch-screen" class="launch-screen">
+        <div class="launch-content">
+            <img id="launch-logo" src="" alt="AcumalakaSMP Logo" class="launch-logo">
+            <h1 id="launch-title" class="launch-title"></h1>
+            <p id="launch-madeby" class="launch-madeby"></p>
+            <p class="version-badge">v1.0.2-beta</p>
+        </div>
+    </div>
+
+    <!-- Main App (initially hidden) -->
+    <div id="app" class="app-container">
+        <!-- Top Header -->
+        <header id="top-header" class="app-header">
+            <h1 id="app-title" class="app-title">AcumalakSMP</h1>
+        </header>
+
+        <!-- Main Content -->
+        <main id="main-content" class="content-area">
+            <!-- Content will be loaded dynamically -->
+        </main>
+
+        <!-- Bottom Navigation -->
+        <nav id="bottom-nav" class="bottom-nav">
+            <!-- Navigation buttons will be loaded dynamically -->
+        </nav>
+    </div>
+
+    <!-- Install Prompt -->
+    <div id="install-prompt" class="install-prompt">
+        <p>Install AcumalakSMP App untuk pengalaman lebih baik?</p>
+        <button id="install-btn">Install</button>
+        <button id="dismiss-btn">Nanti</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,23 @@
+{
+  "name": "AcumalakSMP App",
+  "short_name": "AcumalakSMP",
+  "description": "Aplikasi resmi AcumalakSMP",
+  "version": "1.0.2-beta",
+  "start_url": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#FF6D00",
+  "theme_color": "#FF6D00",
+  "icons": [
+    {
+      "src": "icon/icon.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "icon/icon.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
