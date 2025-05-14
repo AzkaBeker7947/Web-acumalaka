@@ -16,7 +16,6 @@ document.addEventListener('DOMContentLoaded', function() {
             const launchLogo = document.getElementById('launch-logo');
             launchLogo.src = resolveImagePath(config.lunch_screen.logo);
             launchLogo.onerror = function() {
-                console.error('Gagal memuat logo launch screen:', this.src);
                 this.style.display = 'none';
             };
             
@@ -97,7 +96,6 @@ document.addEventListener('DOMContentLoaded', function() {
                 img.className = 'card-image';
                 img.alt = content.judul || '';
                 img.onerror = function() {
-                    console.error('Gagal memuat gambar konten:', this.src);
                     this.style.display = 'none';
                 };
                 card.appendChild(img);
@@ -197,12 +195,9 @@ document.addEventListener('DOMContentLoaded', function() {
         window.addEventListener('load', () => {
             navigator.serviceWorker.register('sw.js')
                 .then(registration => {
-                    console.log('ServiceWorker registration successful');
                 })
                 .catch(err => {
-                    console.log('ServiceWorker registration failed: ', err);
                 });
         });
     }
-
 });
