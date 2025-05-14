@@ -67,18 +67,19 @@
         "deskripsi": "tempat diamana untuk mendownload!!"
       },
       {
-‎        "id_konten": 2,
-        "gambar": "content/download/IMG-20250514-WA0153.jpg",
-‎        "judul": "AcumalakSMP: Report system",
-‎        "deskripsi": "AcumalakSMP: Report system\nSystem Report dengan /c:report\nWajib mengaktifkan Experimental Beta api\nWajib Minecraft v1.21.80",
-‎        "unduh": [
-‎          {
-‎            "path": "content/download/AcumalakSMP_Report_system.mcpack",
-‎            "text": "AcumalakSMP: Report system (23,02 KB)",
-‎            "tooltips": "Texture Pack khusus Acumalaka"
-‎          }
-‎        ]
-‎      }
+        "id_konten": 2,
+        "gambar": "content/download/report_system.png",
+        "judul": "Menu download",
+        "deskripsi": "tempat diamana untuk mendownload!!",
+        "unduh": [
+          {
+            "path": "content/download/AcumalakSMP_Report_system.mcpack",
+            "text": "AcumalakSMP: Report system (23,02 KB)",
+            "tooltips": "Texture Pack khusus Acumalaka"
+            
+          }
+        ]
+      }
     ]
   }
 }
