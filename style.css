@@ -13,7 +13,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Minecraft', sans-serif;
 }
 
 body {
@@ -22,7 +22,6 @@ body {
     overflow-x: hidden;
 }
 
-/* Launch Screen Styles */
 .launch-screen {
     position: fixed;
     top: 0;
@@ -65,7 +64,30 @@ body {
     font-size: 0.9rem;
 }
 
-/* Main App Styles */
+.loading-bar-container {
+    width: 200px;
+    height: 20px;
+    background-color: rgba(0, 0, 0, 0.3);
+    border: 2px solid #000;
+    margin: 20px 0;
+    position: relative;
+}
+
+.loading-bar {
+    height: 100%;
+    width: 0;
+    background-color: #00FF00;
+    position: absolute;
+    top: 0;
+    left: 0;
+    animation: loading 2s linear forwards;
+}
+
+@keyframes loading {
+    0% { width: 0; }
+    100% { width: 100%; }
+}
+
 .app-container {
     display: none;
     flex-direction: column;
@@ -99,7 +121,6 @@ body {
     scroll-behavior: smooth;
 }
 
-/* Content Card Styles */
 .content-card {
     background: white;
     border-radius: 12px;
@@ -152,7 +173,6 @@ body {
     height: 3px;
 }
 
-/* Button Styles */
 .download-btn {
     display: inline-flex;
     align-items: center;
@@ -178,7 +198,6 @@ body {
     margin-right: 8px;
 }
 
-/* Bottom Navigation */
 .bottom-nav {
     display: flex;
     background-color: white;
@@ -215,7 +234,6 @@ body {
     transform: translateY(-2px);
 }
 
-/* Text Formatting */
 .text-bold {
     font-weight: bold;
 }
@@ -244,7 +262,6 @@ body {
     color: #FF9800;
 }
 
-/* Responsive Design */
 @media (min-width: 768px) {
     .app-container {
         max-width: 600px;
@@ -262,9 +279,6 @@ body {
     }
 }
 
-/* ... (existing styles) ... */
-
-/* Version Badge */
 .version-badge {
     position: absolute;
     bottom: 20px;
@@ -276,7 +290,6 @@ body {
     font-size: 0.7rem;
 }
 
-/* Install Prompt */
 .install-prompt {
     position: fixed;
     bottom: 80px;
@@ -325,7 +338,6 @@ body {
     background-color: #e0e0e0;
 }
 
-/* PWA specific styles */
 @media all and (display-mode: standalone) {
     .app-header {
         padding-top: env(safe-area-inset-top);
