@@ -69,8 +69,8 @@
       {
         "id_konten": 2,
         "gambar": "content/download/report_system.png",
-        "judul": "Menu download",
-        "deskripsi": "tempat diamana untuk mendownload!!",
+        "judul": "AcumalakSMP: Report system",
+        "deskripsi": "AcumalakSMP: Report system\nSystem Report dengan /c:report\nWajib mengaktifkan Experimental Beta api\nWajib Minecraft v1.21.80",
         "unduh": [
           {
             "path": "content/download/AcumalakSMP_Report_system.mcpack",
